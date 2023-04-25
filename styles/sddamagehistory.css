@@ -1,0 +1,14 @@
+/* CSS for the Dynasty damage page */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, black, #a28920, black);
+}
