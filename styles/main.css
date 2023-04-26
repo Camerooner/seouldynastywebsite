@@ -7,22 +7,23 @@
 
 html {
   height: 100%;
-  overflow: hidden; 
 }
 
 body {
-  background: linear-gradient(to bottom, black, #a28920, black);
+  background: url(/images/other/seoulkorea2.jpg), linear-gradient(to bottom, black, #AB8901, black);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
   color: white;
   font-family: 'Overpass Mono', monospace;
   font-family: 'Poiret One', cursive;
-  overflow: hidden; 
 }
 
 header {
   padding: 1.5em 0 2em 0;
 	border-bottom: 5px solid black;
   text-align: center;
-
+  margin-bottom: 1em;
 }
 
 main {
@@ -78,8 +79,14 @@ main div {
   text-align: center;
 }
 
-.schedule h2, h3 {
+.schedule h2 {
   margin-top: 0;
+  font-weight: bolder;
+}
+
+.schedule a .fas {
+  font-size: 0.3em;
+  margin-left: 5px;
 }
 
 footer p {

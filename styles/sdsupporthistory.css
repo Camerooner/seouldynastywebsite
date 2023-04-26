@@ -10,5 +10,11 @@ html, body {
 }
 
 body {
-  background: linear-gradient(to bottom, black, #a28920, black);
+  background: url(/images/other/seoulkorea.png), linear-gradient(to bottom, black, #AB8901, black);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Overpass Mono', monospace;
+  font-family: 'Poiret One', cursive;
 }
