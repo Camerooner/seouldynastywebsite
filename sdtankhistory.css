@@ -1,6 +1,5 @@
 /* CSS for the Dynasty tank page */
 
-
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +10,230 @@ html, body {
 }
   
 body {
-    background: linear-gradient(to bottom, black, #a28920, black);
+    background: url(/images/other/seoulkorea2.jpg), linear-gradient(to bottom, black, #AB8901, black);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Overpass Mono', monospace;
+    font-family: 'Poiret One', cursive;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 1.5em 0 2em 0;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+header h1 {
+    line-height: 1.5;
+}
+
+.home-link {
+    margin-left: auto;
+    margin-bottom: 5em;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.home-link:hover {
+    color: rgb(155, 149, 149);
+    transition: color 0.3s ease-in-out;
+}
+
+header h1 a {
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: rgb(155, 149, 149);
+    transition: color 0.3s ease-in-out;
+}
+
+.year {
+    display: inline-block;
+    background-color: black;
+    color: #AB8901;
+    font-size: 3em;
+    padding: 0.2em 0.5em;
+    margin: 0 1em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
   
+.belosrea, .void {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.belosrea p,
+.void p {
+  font-size: 3em;
+
+}
+
+.belosrea img {
+    margin-top: 3px;
+}
+
+.belosrea p {
+    margin-top: 5px;
+
+}
+
+.void img {
+    width: 90%;
+    height: auto;
+    margin-top: -139.25px;
+} 
+
+.void {
+    text-align: center;
+}
+
+.void p {
+    margin-top: -50px;
+    margin-right: 70px;
+
+}
+
+.smurf p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: -5px;
+}
+
+.Toyou p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+}
+
+.Gesture p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+}
+
+.Fissure p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+}
+
+.Marve1 p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+}
+
+.Michelle p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+}
+
+.Miro p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+}
+
+.Zunba p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+}
+
+.KuKi p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+}
+
+.XepheR p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.container2 p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.container3 p {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1px;
+
+}
+
+.container-xepher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+p {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    color: white;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(155, 149, 149);
+    transition: color 0.3s ease-in-out;
+}
+
+footer p {
+	text-align: center;
+	color: #AB8901;
+	padding: 1em 0;
+}
+
