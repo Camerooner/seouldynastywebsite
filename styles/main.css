@@ -94,3 +94,30 @@ footer p {
 	color: #AB8901;
 	padding: 1em 0;
 }
+
+
+@media (max-width: 768px) {
+  header {
+    padding: 1em 0 1.5em 0;
+  }
+  
+  main {
+    flex-direction: column;
+  }
+
+  main div {
+    margin-bottom: 2em;
+  }
+
+  main h1 {
+    font-size: 2em;
+  }
+
+  main h2 {
+    font-size: 1.5em;
+  }
+
+  main a {
+    font-size: 1.5em;
+  }
+}
