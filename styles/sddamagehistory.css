@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  background: url(/images/other/seoulkorea2.jpg), linear-gradient(to bottom, black, #AB8901, black);
+  background: url(../images/other/seoulkorea2.jpg), linear-gradient(to bottom, black, #AB8901, black);
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;

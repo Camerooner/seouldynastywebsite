@@ -10,7 +10,7 @@ html, body {
 }
   
 body {
-    background: url(/images/other/seoulkorea2.jpg), linear-gradient(to bottom, black, #AB8901, black);
+    background: url(../images/other/seoulkorea2.jpg), linear-gradient(to bottom, black, #AB8901, black);
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
@@ -18,6 +18,8 @@ body {
     font-family: 'Overpass Mono', monospace;
     font-family: 'Poiret One', cursive;
     background-attachment: fixed;
+    text-shadow: 3px 3px 3px #000, 
+               3px 3px 5px black;
 }
 
 header {
@@ -54,11 +56,56 @@ header h1 a:hover {
     transition: color 0.3s ease-in-out;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+  
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+  
+
+.nav li {
+    float: left;
+    margin: 0 20px;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: #AB8901;
+    transition: color 0.3s ease-in-out;
+}
+
 .year {
     display: inline-block;
     background-color: black;
     color: #AB8901;
-    font-size: 3em;
+    font-size: 2.5em;
     padding: 0.2em 0.5em;
     margin: 0 1em;
 }
@@ -68,44 +115,33 @@ header h1 a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-  
-.belosrea, .void {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.belosrea p,
-.void p {
-  font-size: 3em;
-
-}
 
 .belosrea img {
-    margin-top: 3px;
+    margin-left: 5px;
 }
 
 .belosrea p {
-    margin-top: 5px;
-
+    text-align: center;
+    font-size: 3em;
+    margin-top: -2px;
+  
 }
-
+  
 .void img {
     width: 90%;
     height: auto;
-    margin-top: -139.25px;
+    margin-top: -26px;
+    margin-left: 20px;
+    width: 454px; 
+    height: 480px;
 } 
-
-.void {
-    text-align: center;
-}
-
+  
 .void p {
-    margin-top: -50px;
-    margin-right: 70px;
-
+    text-align: center;
+    font-size: 3em;
+    margin-top: -2px;
+    margin-left: 40px;
+  
 }
 
 .smurf p {
@@ -231,9 +267,124 @@ a:hover {
     transition: color 0.3s ease-in-out;
 }
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: 'Overpass Mono', monospace;
+    font-family: 'Poiret One', cursive;
+}
+  
+  #myBtn:hover {
+    color: #AB8901;
+    transition: color 0.3s ease-in-out;
+  }
+  
+
 footer p {
 	text-align: center;
 	color: #AB8901;
 	padding: 1em 0;
 }
 
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 1.5em;
+    }
+
+    header .year {
+        font-size: 1em;
+    }
+    
+    .nav ul {
+        flex-direction: column;
+    }
+    
+    .nav li {
+        margin: 5px 0;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container div {
+        margin: 10px;
+    }
+    
+    .year {
+        font-size: 1.5em;
+    }
+
+    .belosrea img {
+        width: 150px;
+    }
+
+    .void img {
+        width: 150px;
+        height: 150px;
+        margin-left: -10px;
+    }
+
+    .void p {
+        margin-left: -15px;
+    }
+    
+    .smurf img {
+        width: 150px;
+    }
+    
+    .Toyou img {
+        width: 150px;
+    }
+    
+    .Gesture img {
+        width: 150px;
+    }
+    
+    .Fissure img {
+        width: 150px;
+    }
+    
+    .Marve1 img {
+        width: 150px;
+    }
+
+    .Michelle img {
+        width: 150px;
+    }
+
+    .Miro img {
+        width: 150px;
+    }
+
+    .Zunba img {
+        width: 150px;
+    }
+
+    .KuKi img {
+        width: 150px;
+    }
+
+    .XepheR img {
+        width: 150px;
+    }
+}
+  
+  @media only screen and (max-width: 768px) {
+    nav {
+      display: none;
+    }
+  }

@@ -10,11 +10,385 @@ html, body {
 }
 
 body {
-  background: url(/images/other/seoulkorea.png), linear-gradient(to bottom, black, #AB8901, black);
+  background: url(../images/other/seoulkorea2.jpg), linear-gradient(to bottom, black, #AB8901, black);
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
   color: white;
   font-family: 'Overpass Mono', monospace;
   font-family: 'Poiret One', cursive;
+  background-attachment: fixed;
+  text-shadow: 3px 3px 3px #000, 
+               3px 3px 5px black;
+}
+
+header {
+  padding: 1.5em 0 2em 0;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+header h1 {
+  line-height: 1.5;
+}
+
+.home-link {
+  margin-left: auto;
+  margin-bottom: 5em;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.home-link:hover {
+  color: rgb(155, 149, 149);
+  transition: color 0.3s ease-in-out;
+}
+
+header h1 a {
+  color: white;
+  font-size: 3em;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: rgb(155, 149, 149);
+  transition: color 0.3s ease-in-out;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.nav li {
+  float: left;
+  margin: 0 20px;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: #AB8901;
+  transition: color 0.3s ease-in-out;
+}
+
+.year {
+  display: inline-block;
+  background-color: black;
+  color: #AB8901;
+  font-size: 2.5em;
+  padding: 0.2em 0.5em;
+  margin: 0 1em;
+}
+
+.prophet img {
+  width: 90%;
+  height: auto;
+  margin-top: -60px;
+  margin-left: 20px;
+} 
+
+.prophet img {
+  width: 90%;
+  height: auto;
+  margin-top: -26px;
+  margin-left: 20px;
+  width: 454px; 
+  height: 454px;
+  margin-right: 45px;
+} 
+
+.prophet p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: -5px;
+}
+
+.stalk3r p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: -5px;
+}
+
+.saebyeolbe p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1px;
+}
+
+.profit p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1px;
+}
+
+.illicit img {
+  max-width: 100%;
+  height: auto;
+  width: 454px; 
+  height: 454px;
+}
+
+.illicit p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1px;
+}
+
+.fits p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1px;
+}
+
+.wekeed p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1px;
+}
+
+.bunny p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1px;
+}
+
+.bunny img {
+  max-width: 100%;
+  height: auto;
+  width: 454px; 
+  height: 454px;
+}
+
+.munchkin p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1px;
+}
+
+.munchkin img {
+  max-width: 100%;
+  height: auto;
+  width: 454px; 
+  height: 454px;
+}
+
+.fleta p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1px;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.container2 p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1px;
+
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.container3 p {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1px;
+
+}
+
+.container-fleta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(155, 149, 149);
+  transition: color 0.3s ease-in-out;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  font-family: 'Overpass Mono', monospace;
+  font-family: 'Poiret One', cursive;
+}
+
+#myBtn:hover {
+  color: #AB8901;
+  transition: color 0.3s ease-in-out;
+}
+
+
+footer p {
+text-align: center;
+color: #AB8901;
+padding: 1em 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+  header {
+      font-size: 1.5em;
+  }
+
+  header .year {
+    font-size: 1em;
+  }
+  
+  .nav ul {
+      flex-direction: column;
+  }
+  
+  .nav li {
+      margin: 5px 0;
+  }
+  
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .container div {
+      margin: 10px;
+  }
+  
+  .year {
+      font-size: 1.5em;
+  }
+
+  .prophet img {
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+  }
+
+  .prophet p {
+    margin-top: .1em;
+
+  }
+  
+  .stalk3r img {
+    width: 150px;
+  }
+  
+  .saebyeolbe img {
+    margin-left: 40px;
+    width: 150px;
+  }
+  
+  .profit img {
+    width: 150px;
+  }
+  
+  .illicit img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .fits img {
+    width: 150px;
+  }
+
+  .wekeed img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .bunny img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .munchkin img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .fleta img {
+    width: 150px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
 }
